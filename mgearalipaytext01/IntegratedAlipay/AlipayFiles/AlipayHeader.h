@@ -44,13 +44,13 @@
  *  partner:合作身份者ID,以 2088 开头由 16 位纯数字组成的字符串。
  *
  */
-#define kPartnerID @""
+#define kPartnerID @"2088702420860843"
 
 
 /**
  *  seller:支付宝收款账号,手机号码或邮箱格式。
  */
-#define kSellerAccount @""
+#define kSellerAccount @"15926468719"
 
 /**
  *  支付宝服务器主动通知商户 网站里指定的页面 http 路径。
@@ -61,13 +61,13 @@
 /**
  *  appSckeme:应用注册scheme,在Info.plist定义URLtypes，处理支付宝回调
  */
-#define kAppScheme @"integratedAlipay"
+#define kAppScheme @"mgearalipaytext01"
 
 
 /**
  *  private_key:商户方的私钥,pkcs8 格式。
  */
-#define kPrivateKey @""
+#define kPrivateKey @"MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAMOQW8ZLVz/5YIz9cfK9FtbwvitU27YnRZGmx/L82APuU/3QquiPfD6s+IMWz90QIBytfhLLMm8DwHDYtcc7PSQJ9xMCAcoZCjr4orc3QdhkraHirS2gLSUTzbxyk+MDOW1L9bC2QofW4igwn2aPAOdWaKGRLnc8WrI6Xh/9UxMdAgMBAAECgYEAmEJ/wa6M+skdLAhzvEsOSkDbvv7tpS+EUbdpe7zyLnVTPY1GU5TLZjzjq6SKKBJS/iDxxI4h8R8ZqIKBXOG5YkYMrR0adCjA28rvxPWLMNlUCZYOmKUD3YKzx40HgHwDpSW86oC9bJUIdAxCaBHlFR1uvuceYERbKQ82ZTjkrkECQQDpPMZ4GY2FdGooGIiFt/yK4TTHf9ePcgSV9OCQwqiQavmDM3UOy+HSn0zLs46X0nB5hKEAhxAW+1A6HeqQ5NmxAkEA1qZYT16HljvzZ2M2+GFAxzSfbXzN5uKoz0drqNPGQj1kAiUBIX711lGm9NiOWPCbmxn5mhhEScZeJBN0Gzp/LQJBAJLo9Row/jNRYIxg551Shn/z2orOu7he2QSbede0xPgyaXd6sgDf6x3/uR+VuftnUfE42TC74iaXpbD1pwodHAECQQCtzQkKUwdEHQzL9OjImq6B3dkNJRXvUi3PkAvbKoaIkf7NQbs1rQBPZdPiwwoXd9L29kRFgkqg1c7aNSo49deNAkAvb091MxDVgUrgZIo4tLvpflNESCWmVjyn2IKsL4PO9Ji0W2x79Ki0UbAWey4YpkFUaJm2Va6fvMtvdRT+2HSv"
 
 
 #endif

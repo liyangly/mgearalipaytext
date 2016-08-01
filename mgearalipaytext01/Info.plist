@@ -41,6 +41,8 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
+				<string>safepay</string>
+				<string>alipay</string>
 				<string>mgearalipaytext01</string>
 			</array>
 			<key>CFBundleTypeRole</key>
